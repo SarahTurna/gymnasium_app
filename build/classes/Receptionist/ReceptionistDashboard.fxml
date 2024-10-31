@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?> 
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="Receptionist.ReceptionistDashboardController">
+    <children>
+      <Button layoutX="8.0" layoutY="58.0" mnemonicParsing="false" onAction="#memberDetailsButtonOnClick" prefHeight="34.0" prefWidth="122.0" text="Member Details" />
+      <Button layoutX="8.0" layoutY="92.0" mnemonicParsing="false" onAction="#scheduleButtonOnClick" prefHeight="34.0" prefWidth="122.0" text="Schedule" />
+      <Button layoutX="8.0" layoutY="126.0" mnemonicParsing="false" onAction="#inventoryButtonOnClick" prefHeight="34.0" prefWidth="122.0" text="Inventory" />
+      <Button layoutX="8.0" layoutY="160.0" mnemonicParsing="false" onAction="#supportButtonOnclick" prefHeight="34.0" prefWidth="122.0" text="Support" />
+      <Button layoutX="8.0" layoutY="194.0" mnemonicParsing="false" onAction="#transactionsButtonOnClick" prefHeight="34.0" prefWidth="122.0" text="Transactions" />
+      <Button layoutX="8.0" layoutY="228.0" mnemonicParsing="false" onAction="#queryboxButtonOnClick" prefHeight="34.0" prefWidth="122.0" text="Query-Box" />
+      <Button layoutX="8.0" layoutY="262.0" mnemonicParsing="false" onAction="#mailButtonOnClick" prefHeight="34.0" prefWidth="122.0" text="Mail" />
+      <Button layoutX="516.0" layoutY="304.0" mnemonicParsing="false" onAction="#logoutButtonOnClick" text="Logout" />
+      <Text layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="236.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
